@@ -12,6 +12,13 @@
 
 ```
 
+```groovy
+dependencies {
+    ...
+    implementation 'org.springframework.boot:spring-boot-starter-websocket' // 얘 추가
+}
+```
+
 ## WebSocketConfig
 ```java
     @Override
